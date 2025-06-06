@@ -12,7 +12,7 @@ const About = () => {
         <div className="lg:border-black lg:min-w-1/3 lg:p-4">
           <div className="m-8 rounded-xl lg:h-2/3 w-2/3 lg:flex justify-center  lg:m-0">
             <img
-              src="../profile_pic.jpg"
+              src="../public/profile_pic.jpg"
               alt=""
               className="rounded-xl lg:w-fit lg:h-fit object-cover"
             />

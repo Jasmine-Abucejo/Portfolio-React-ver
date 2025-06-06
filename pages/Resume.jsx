@@ -9,14 +9,15 @@ const Resume = () => {
       <div className="flex flex-col lg:flex lg:flex-row lg:w-auto lg:h-auto">
         <div className="lg:min-w-2/3  lg:m-4 lg:border-2">
           <img
-            src="../Jasmine(Updated Resume).jpg"
+            src="../public/Jasmine(Updated Resume).jpg"
             alt=""
             className="lg:h-auto"
           />
         </div>
         <div className="  text-4xl text-center lg: flex justify-center m-4">
           <div className="flex flex-row border-green-600 border-4 p-4 rounded lg:h-20">
-            <FaDownload /> <a href="">Download</a>
+            <FaDownload />{" "}
+            <a href="../src/assets/Jasmine(Updated Resume).pdf">Download</a>
           </div>
         </div>
       </div>
