@@ -22,7 +22,10 @@ const Navbar = () => {
         </Link>
       </div>
       <div className=" flex ">
-        <Link to="/" className="flex flex-col items-center justify-center">
+        <Link
+          to="/resume"
+          className="flex flex-col items-center justify-center"
+        >
           <ImProfile className="lg:size-8 inline" />
           <span className="block lg:inline"> Resume</span>
         </Link>
