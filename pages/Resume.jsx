@@ -9,7 +9,7 @@ const Resume = () => {
       <div className="flex flex-col lg:flex lg:flex-row lg:w-auto lg:h-auto">
         <div className="lg:min-w-2/3  lg:m-4 lg:border-2">
           <img
-            src="../public/Jasmine(Updated Resume).jpg"
+            src="../Jasmine(Updated Resume).jpg"
             alt=""
             className="lg:h-auto"
           />

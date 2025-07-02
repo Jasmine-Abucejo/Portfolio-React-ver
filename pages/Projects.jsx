@@ -29,6 +29,12 @@ const Projects = () => {
           link={"https://react-simple-challenges.netlify.app/"}
           Glink={"https://github.com/Jasmine-Abucejo/React-Practices"}
         />
+        <ProjectCard
+          title={"NUMEMO: Number Momorization Game"}
+          image={"../numemo.png"}
+          link={""}
+          Glink={"https://github.com/Jasmine-Abucejo/memorization-game"}
+        />
       </div>
     </div>
   );
