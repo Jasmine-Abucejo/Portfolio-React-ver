@@ -8,7 +8,7 @@ const Projects = () => {
       </div>
       <div className="lg:grid lg:grid-cols-2 lg:grid-flow-row">
         <ProjectCard
-          title={"Book Borrowind System (PHP ver)"}
+          title={"Book Borrowing System (PHP ver)"}
           image={"../BBS.png"}
           link={
             "https://drive.google.com/file/d/1nVVYF21-ATRNzDOk1bAmVMxEv0u8aKyQ/view?fbclid=IwZXh0bgNhZW0CMTEAAR0tEvuRO_sx3LmyAZjrnK12hi7fU3KhIa66EWAD9ZqDaqov17XYCz7POqI_aem_U03d2wuFcPglSBC7TEviog"
@@ -23,17 +23,24 @@ const Projects = () => {
           }
           Glink={"https://github.com/Jasmine-Abucejo/GUARDIAN-vite-ver"}
         />
-        <ProjectCard
-          title={"ReactJS Beginner Challenges"}
-          image={"../ReactChallenges.png"}
-          link={"https://react-simple-challenges.netlify.app/"}
-          Glink={"https://github.com/Jasmine-Abucejo/React-Practices"}
-        />
+
         <ProjectCard
           title={"NUMEMO: Number Momorization Game"}
           image={"../numemo.png"}
           link={""}
           Glink={"https://github.com/Jasmine-Abucejo/memorization-game"}
+        />
+        <ProjectCard
+          title={"My Booklist (using MERN)"}
+          image={"../booklist.png"}
+          link={"https://my-booklist-tawny.vercel.app/"}
+          Glink={"https://github.com/Jasmine-Abucejo/My-Booklist"}
+        />
+        <ProjectCard
+          title={"ReactJS Beginner Challenges"}
+          image={"../ReactChallenges.png"}
+          link={"https://react-simple-challenges.netlify.app/"}
+          Glink={"https://github.com/Jasmine-Abucejo/React-Practices"}
         />
       </div>
     </div>
